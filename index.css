@@ -1,0 +1,54 @@
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    margin: 20px 0; /* Add some margin around the table */
+    font-family: Arial, sans-serif; /* Change the font */
+}
+
+/* Table header styles */
+th {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 12px; /* Padding for headers */
+    text-align: left; /* Align text to the left */
+}
+
+/* Table row styles */
+tr {
+    background-color: #f2f2f2; /* Light gray background */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #ddd; /* Darker gray on hover */
+}
+
+/* Table cell styles */
+td {
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Image styling */
+td img {
+    border-radius: 4px; /* Rounded corners for images */
+}
+
+/* Styling for price columns */
+td:nth-child(4),
+td:nth-child(5) {
+    font-weight: bold; /* Make price text bold */
+}
+
+/* Previous price style */
+td:nth-child(4) {
+    text-decoration: line-through; /* Strikethrough for previous price */
+    color: #888; /* Gray color for previous price */
+}
+
+/* New price style */
+td:nth-child(5) {
+    color: #d9534f; /* Red color for new price */
+}
